@@ -473,6 +473,18 @@ const Schema = i18n => {
       doorAreaMetres
       # ${i18n.t`Filter results by dwellings where the area of the doors have certain value in square feet (ft2)`}
       doorAreaFeet
+      # ${i18n.t`Filter results for dwellings with an evaluation with a matching evaluationType`}
+      evaluationEvaluationType
+      # ${i18n.t`Filter results based on the date a dwellings evaluation was entered on`}
+      evaluationEntryDate
+      # ${i18n.t`Filter results based on the date a dwellings evaluation was conducted`}
+      evaluationCreationDate
+      # ${i18n.t`Filter results based on the date a dwellings evaluation was modified`}
+      evaluationModificationDate
+      # ${i18n.t`Filter results based on the date a dwellings on the Energuide rating calculated for a given evaluation`}
+      evaluationErsRating
+      # ${i18n.t`Filter results based on the date a dwellings on the H2K file ID associated with a particular evaluation`}
+      evaluationFileId
     }
   `,
   ]

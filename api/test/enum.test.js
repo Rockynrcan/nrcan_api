@@ -101,6 +101,12 @@ describe('Enum values', () => {
     doorUFactorImperial: { testValue: 0.15448261737709199 },
     doorAreaMetres: { testValue: 1.764 },
     doorAreaFeet: { testValue: 18.9875391902784 },
+    evaluationEvaluationType: { testValue: 'D' },
+    evaluationEntryDate: { testValue: '2011-08-18' },
+    evaluationCreationDate: { testValue: '2012-10-01T15:08:39' },
+    evaluationModificationDate: { testValue: '2012-06-09T11:20:20' },
+    evaluationErsRating: { testValue: 130 },
+    evaluationFileId: { testValue: '3C10D11075' },
   }
 
   Object.keys(testData).forEach(functionName => {

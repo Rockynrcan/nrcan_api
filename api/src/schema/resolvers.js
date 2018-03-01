@@ -76,6 +76,12 @@ import {
   doorUFactorImperial,
   doorAreaMetres,
   doorAreaFeet,
+  evaluationEvaluationType,
+  evaluationEntryDate,
+  evaluationCreationDate,
+  evaluationModificationDate,
+  evaluationErsRating,
+  evaluationFileId,
 } from './enums'
 /* eslint-enable import/named */
 
@@ -231,6 +237,12 @@ const Resolvers = i18n => {
       doorUFactorImperial: doorUFactorImperial.toString(),
       doorAreaMetres: doorAreaMetres.toString(),
       doorAreaFeet: doorAreaFeet.toString(),
+      evaluationEvaluationType: evaluationEvaluationType.toString(),
+      evaluationEntryDate: evaluationEntryDate.toString(),
+      evaluationCreationDate: evaluationCreationDate.toString(),
+      evaluationModificationDate: evaluationModificationDate.toString(),
+      evaluationErsRating: evaluationErsRating.toString(),
+      evaluationFileId: evaluationFileId.toString(),
     },
     Comparator: {
       gt: '$gt',
